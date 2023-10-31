@@ -1,38 +1,317 @@
 .App {
   text-align: center;
+  background-color: #323232;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.button-row {
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  margin: 20px;
+}
+
+.button {
+  background-color: #d5ebff;
+  color: #084c4c;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #82ffc9;
+}
+
+marquee{
+  background-color: rgb(27, 18, 18);
+  margin: 0px;
+}
+
+.result{
+  margin: -20px 0px;
+}
+
+.result h2{
+  background-color: rgb(36, 8, 52);
+  padding: 15px;
+}
+
+.col-block{
+  display: flex;
+  margin: -20px 0px;
+  background-color: #28332e;
+}
+
+.block{
+  flex-basis: 36%;
+  margin: 0 7px;
+  text-justify: distribute;
+  color: rgb(255, 255, 255);
+}
+
+.w-button{
+  margin: 5px;
+  padding: 4px 10px;
+  background-color: #009c41;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+
+.c-button{
+  margin: 5px;
+  padding: 4px 10px;
+  background-color: #160e72;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+
+}
+
+hr{
+  border: 1px solid rgb(66, 66, 66);
+}
+
+.places{
+  display: flex;
+  margin-top: 15px;
+}
+
+.place{
+  flex-basis: 33%;
+}
+
+table{
+  margin: auto;
+  padding: 5px;
+  background-color: #075226;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+table p{
+  background-color: #160e72;
+  margin: 1px;
+  border-radius: 4px;
+}
+
+.popup{
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+.table1{
+  margin-top: auto;
+}
+
+.close-btn{
+  color: white;
+  background-color: red;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.show{
+  background-color: rgb(91, 3, 29);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.notice{
+  background-color: #203227;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.p1{
+  color: rgb(255, 87, 87);
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.p2{
+  color: rgb(80, 255, 246);
+  margin: 0;
+}
+
+.p3{
+  color: #15e56c;
+  margin: 0;
+}
+
+.p4{
+  color: yellow;
+  margin: 0;
+}
+
+tr{
+  border: 3px solid black;
+}
+
+th{
+  color: coral;
+}
+
+td{
+  color: rgb(239, 243, 0);
+}
+
+.tab1{
+  margin-top: 20px;
+}
+
+.months{
+ margin-top: auto;
+}
+
+.monthsl{
+  background-color: chocolate;
+}
+
+.months h2, .tab1 h2
+{
+  color: black;
+  margin: 5px;
+}
+
+.section{
+  background-color: #ade6ff;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+/* YourComponent.css */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 800px; /* Adjust as needed for your layout */
+}
+
+.flex-container a {
+  flex: 0 0 calc(33.33% - 10px); /* 4 items per row on smaller screens (adjust as needed) */
+  margin: 5px;
+  height: 100px; /* Adjust the height as needed */
+  background-color: rgb(230, 228, 173);
+  text-align: center;
+  line-height: 100px;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.rec-head{
+  color: black;
+  background-color: crimson;
+  margin: 2px;
+  padding: 3px;
+}
+
+.ldb{
+  background-color: #28332e;
+  color: white;
+  padding: 5px;
+}
+
+.bld{
+  background-color: slateblue;
+  color: white;
+  padding: 5px;
+}
+
+.fixed-button-container {
+  position: relative; /* Container must have a non-static position */
+  width: 100%;
+  height: 10px;
+}
+
+.fixed-button {
+  position: fixed; /* Fixed position to keep the button fixed on the screen */
+  bottom: 20px; /* Adjust the button's position from the bottom as needed */
+  right: 20px; /* Adjust the button's position from the right as needed */
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the button when hovered */
+.fixed-button:hover {
+  background-color: #0056b3;
+}
+
+
+@media (min-width: 800px) {
+  .flex-container a {
+    flex-basis: calc(16.666% - 10px); /* 6 items per row on larger screens (adjust as needed) */
   }
 }
+
+
+@media(max-width:650px)
+{
+  .col-block{
+    flex-direction: column;
+  }  
+  hr{
+    width: 90%;
+  }
+  .places{
+    flex-direction: column;
+  }
+  th{
+    font-size:x-small;
+  }
+
+}
+
