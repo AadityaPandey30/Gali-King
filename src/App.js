@@ -49,7 +49,7 @@ function App() {
       <div className="col-block">
         <div className="block" style={{ flexBasis: "50%" }}>
           <h3>Sangeeta Yadav MD</h3>
-          <p style={{ color: "gold" }}>
+          <p style={{ color: "black" }}>
             फरीदाबाद गाजियाबाद गली दिसावर मैं आपको सिंगल जोड़ी मैं कंपनी गेम पास
             कराकर देगी गेम की 1001% गारंटी होगी गेम किसी का बाप नहीं काट पाएगा
             जो भाई लॉस मैं हो लॉस कवर कराने के लिए व्हाट्सएप पर कॉल या मेसेज करे
@@ -61,7 +61,7 @@ function App() {
         <hr></hr>
         <div className="block" style={{ flexBasis: "50%" }}>
           <h3>SAURABH YADAV(CEO)</h3>
-          <p style={{ color: "gold" }}>
+          <p style={{ color: "black" }}>
             फरीदाबाद गाजियाबाद गली दिसावर में लीक जोड़ी गेम लेना चाहता है और जो
             कोई भी भाई जगह-जगह से धोखा खाया हुआ है धोखा खाकर थक चुका है तो
             बिल्कुल भी टेंशन ना ले सिर्फ इमानदार लोग ही कॉल या मैसेज करें और
@@ -72,10 +72,10 @@ function App() {
           <button className="w-button">WHATSAPP</button>
           <button className="c-button">Call Now</button>
         </div>
-      </div>
+      <hr></hr>
       <div className="block">
         <h3>Kiran Sharma MD</h3>
-        <p style={{ color: "gold" }}>
+        <p style={{ color: "black" }}>
           सिंगल लीक जोड़ी Date फिक्स डायरेक्ट सट्टा ब्रांच से लीक गेम पास की फुल
           गारंटी है 101% पास लीक एंड कन्फर्म मेरी जोड़ी पैसा आपका तुम अपनी सोच
           बदलो मैं तुम्हारी तकदीर बदल दूंगा हम से जुड़े 20 से 25 लाख महीने का
@@ -85,26 +85,29 @@ function App() {
         <button className="w-button">WHATSAPP</button>
         <button className="c-button">Call Now</button>
       </div>
+      
+      </div>
+      <br></br>
       <div className="notice">
         <h2 style={{ margin: "5px" }}>:: NOTICE BOARD ::</h2>
         <h3 style={{ margin: "2px" }}>AMIT DUBEY ONLINE KHAIWAL</h3>
-        <p className="p1">SATTA KING KA WADA</p>
-        <p className="p1">1001% PAYMENT KI GARANTI</p>
-        <p className="p2">जोडी रेट 10 के 950</p>
-        <p className="p2">हरूप रेट 100 के 950 PM</p>
-        <p className="p1">फरीदाबाद-05:50 PM</p>
-        <p className="p1">गाज़ियाबाद :- 07:50 PM</p>
-        <p className="p1">गली :- 10:50 PM</p>
-        <p className="p1">दिसावर :- 04:30 AM</p>
-        <p className="p1">भोपाल Morning - 4:30 AM</p>
-        <p className="p3">PAYMENT GAME PASS KE</p>
-        <p className="p3">30 MIN BAAD MILEGA</p>
+        <p className="p4">SATTA KING KA WADA</p>
+        <p className="p4">1001% PAYMENT KI GARANTI</p>
+        <p className="p4">जोडी रेट 10 के 950</p>
+        <p className="p4">हरूप रेट 100 के 950 PM</p>
+        <p className="p4">फरीदाबाद-05:50 PM</p>
+        <p className="p4">गाज़ियाबाद :- 07:50 PM</p>
+        <p className="p4">गली :- 10:50 PM</p>
+        <p className="p4">दिसावर :- 04:30 AM</p>
+        <p className="p4">भोपाल Morning - 4:30 AM</p>
+        <p className="p4">PAYMENT GAME PASS KE</p>
+        <p className="p4">30 MIN BAAD MILEGA</p>
         <p className="p4">OFFICIAL KHAIWAL AMIT DUBEY</p>
         <p className="p4">9058099847</p>
+        <br></br>
         <button className="w-button">WHATSAPP</button>
         <button className="c-button">Call Now</button>
       </div>
-      <hr></hr>
 
       <div
         className="tab1"
@@ -122,9 +125,10 @@ function App() {
         <button className="show" onClick={openPopup1}>
           Show chart
         </button>
+      
         <Monthly show={isPopupVisible1} onClose={closePopup1} />
       </div>
-      <hr></hr>
+    
       <Abtsutta />
       <hr></hr>
       <Records />
