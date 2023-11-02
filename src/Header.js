@@ -1,8 +1,6 @@
 import React from "react";
-import {Routes, Route, Link} from 'react-router-dom';
-import Privacy from "./Components/PrivacyPolicy";
-import About from "./Components/About";
-import App from "./App";
+import {Link} from 'react-router-dom';
+
 
 const Header = () => {
   const scrollToSection = (sectionId) => {
@@ -15,7 +13,7 @@ const Header = () => {
       <header>
         <div className="head">
         <nav>
-            <h1 className="p2">Gali Result</h1>
+            <h1 style={{margin:'7px 0px 0px 10px'}}>Gali Result</h1>
           <ul className="nav-links">
             <li>
                <Link to="/">Home</Link>
@@ -45,7 +43,7 @@ const Header = () => {
             <div className="col-block">
             <div className="block" style={{flexBasis:'20%'}}>
                 <h3>Shivani Gupta (CEO)</h3>
-                <p style={{color:'gold'}}>गली देसावर की सिंगल लीक जोड़ी 1001% Fix</p>
+                <p style={{color:'black'}}>गली देसावर की सिंगल लीक जोड़ी 1001% Fix</p>
                 <p>7077354319</p>
                 <button className="w-button">WHATSAPP</button>
                 <button className="c-button">Call Now</button>
@@ -53,8 +51,8 @@ const Header = () => {
             <hr></hr>
             <div className="block">
                 <h3>Kiran Sharma MD</h3>
-                <p style={{color:'red'}}>LEAK GAME KING</p>
-                <p style={{color:'gold'}}>गली दिसावर गाजियाबाद फरीदाबाद दीपावली पर होगी सबके घर में खुशियाँ। गेम लो सिंगल जोड़ी में दिसावर & कंपनी से लीक गेम जो होगा 100% फिक्स। कंपनी के खाते में पैसा जमा करवाकर कंपनी से गेम लें। गली और दिसावर कंपनी से लीक और फास्ट गेम बुक करवाएं और अपना लॉस वापस करें। डेट फिक्स गेम मिलेगी। जिस भाई का कभी गेम पास नहीं हुआ हो और परेशान हो, तो हमसे संपर्क करें।</p>
+                <p style={{color:'blue'}}>LEAK GAME KING</p>
+                <p style={{color:'black'}}>गली दिसावर गाजियाबाद फरीदाबाद दीपावली पर होगी सबके घर में खुशियाँ। गेम लो सिंगल जोड़ी में दिसावर & कंपनी से लीक गेम जो होगा 100% फिक्स। कंपनी के खाते में पैसा जमा करवाकर कंपनी से गेम लें। गली और दिसावर कंपनी से लीक और फास्ट गेम बुक करवाएं और अपना लॉस वापस करें। डेट फिक्स गेम मिलेगी। जिस भाई का कभी गेम पास नहीं हुआ हो और परेशान हो, तो हमसे संपर्क करें।</p>
                 <p>7536975011</p>
                 <button className="w-button">WHATSAPP</button>
                 <button className="c-button">Call Now</button>
@@ -62,8 +60,8 @@ const Header = () => {
             <hr></hr>
             <div className="block">
                 <h3>Saurabh Patel</h3>
-                <p style={{color:'red'}}>King of Sutta</p>
-                <p style={{color:'gold'}}>फरीदाबाद गाजियाबाद गली दिसावर मैं आपको सिंगल जोड़ी मैं कंपनी गेम पास कराकर देगी, गेम की 1001% गारंटी होगी। गेम किसी का बाप नहीं काट पाएगा। जो भाई लॉस में हो, लॉस कवर कराने के लिए व्हाट्सएप पर कॉल या मैसेज करे।</p>
+                <p style={{color:'blue'}}>King of Sutta</p>
+                <p style={{color:'black'}}>फरीदाबाद गाजियाबाद गली दिसावर मैं आपको सिंगल जोड़ी मैं कंपनी गेम पास कराकर देगी, गेम की 1001% गारंटी होगी। गेम किसी का बाप नहीं काट पाएगा। जो भाई लॉस में हो, लॉस कवर कराने के लिए व्हाट्सएप पर कॉल या मैसेज करे।</p>
                 <p>6287686224</p>
                 <button className="w-button">WHATSAPP</button>
                 <button className="c-button">Call Now</button>
@@ -71,7 +69,6 @@ const Header = () => {
             </div>
         </div>
         <br></br>
-        <hr style={{color:'white'}}></hr>
         <div className="places" id="section2">
                 <div className="place">
                     <h2>DESAWAR</h2>
