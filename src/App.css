@@ -1,15 +1,15 @@
 .App {
   text-align: center;
   background-color: #323232;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-  background-color: #333;
+  background-color: #0e5e3a;
   color: #fff;
-  padding: 10px 0;
+  padding: 0 0 10px 0;
   text-align: center;
 }
-
 
 nav {
   display: flex;
@@ -64,7 +64,7 @@ nav {
 }
 
 marquee{
-  background-color: rgb(27, 18, 18);
+  background-color: rgb(138, 45, 14);
   margin: 0px;
 }
 
@@ -73,27 +73,32 @@ marquee{
 }
 
 .result h2{
-  background-color: rgb(36, 8, 52);
+  background-color: rgb(250, 219, 16);
   padding: 15px;
+  color: black;
 }
 
 .col-block{
   display: flex;
   margin: -20px 0px;
-  background-color: #28332e;
+  padding: 4px 0px;
+  background-color: #a3fad7;
 }
 
 .block{
   flex-basis: 36%;
-  margin: 0 7px;
+  margin:0 7px;
+  padding: 0 4px;
   text-justify: distribute;
-  color: rgb(255, 255, 255);
+  color: rgb(98, 0, 0);
+  border: 2px solid black;
+  border-radius: 2px;
 }
 
 .w-button{
   margin: 5px;
   padding: 4px 10px;
-  background-color: #009c41;
+  background-color: #044720;
   color: rgb(255, 255, 255);
   border-radius: 7px;
 }
@@ -118,6 +123,11 @@ hr{
 
 .place{
   flex-basis: 33%;
+  background-color: #a2d5ff;
+  border-radius: 8px;
+  margin: 0 2px;
+  padding: 2px;
+  color: rgb(0, 0, 0);
 }
 
 table{
@@ -168,8 +178,9 @@ table p{
 }
 
 .notice{
-  background-color: #203227;
-  color: white;
+  background-color: #005aa8;
+  color: rgb(39, 255, 1);
+  padding: 4px;
 }
 
 .p1{
@@ -204,8 +215,16 @@ td{
   color: rgb(239, 243, 0);
 }
 
+.head
+{
+  border:solid rgb(0, 0, 0);
+}
+
 .tab1{
-  margin-top: 20px;
+  margin: 2px 0px;
+  padding: 4px;
+  display: flex;
+  justify-content:center;
 }
 
 .months{
@@ -214,12 +233,22 @@ td{
 
 .monthsl{
   background-color: chocolate;
+  margin: 2px 0px;
+  padding: 4px;
+  display: flex;
+  justify-content:center;
 }
 
-.months h2, .tab1 h2
+.monthsl h2
 {
   color: black;
-  margin: 5px;
+  margin: 1px;
+}
+
+.tab1 h2
+{
+  color: black;
+  margin: 1px;
 }
 
 .section{
@@ -241,7 +270,7 @@ td{
   flex: 0 0 calc(33.33% - 10px); /* 4 items per row on smaller screens (adjust as needed) */
   margin: 5px;
   height: 100px; /* Adjust the height as needed */
-  background-color: rgb(230, 228, 173);
+  background-color: #ffe24fd7;
   text-align: center;
   line-height: 100px;
   flex-wrap: wrap;
@@ -250,19 +279,20 @@ td{
 
 .rec-head{
   color: black;
-  background-color: crimson;
+  background-color: rgb(248, 0, 50);
   margin: 2px;
   padding: 3px;
 }
 
 .ldb{
-  background-color: #28332e;
-  color: white;
+  background-color: #00ff59;
+  color: rgb(0, 0, 0);
   padding: 5px;
+  margin-bottom: 4px;
 }
 
 .bld{
-  background-color: slateblue;
+  background-color: rgb(225, 0, 255);
   color: white;
   padding: 5px;
 }
@@ -298,7 +328,7 @@ td{
 }
 
 
-@media(max-width:650px)
+@media(max-width:700px)
 {
   .col-block{
     flex-direction: column;
@@ -312,6 +342,13 @@ td{
   th{
     font-size:x-small;
   }
-
+  .tab1{
+    flex-direction: column;
+  }
+  .monthsl{
+    flex-direction: column;
+  }
+  .place{
+    margin: 0 10px;
+  }
 }
-
