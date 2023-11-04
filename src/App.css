@@ -1,20 +1,22 @@
 .App {
   text-align: center;
-  background-color: #323232;
+  background-color: rgb(34, 34, 32);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-  background-color: #0e5e3a;
-  color: #fff;
+  background-color: rgb(255, 240, 194);
   padding: 0 0 10px 0;
+  color:rgb(0, 0, 0);
   text-align: center;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  background-color: red;
+  font-family: Helvetica, sans-serif;
 }
 
 .logo a {
@@ -26,37 +28,47 @@ nav {
 
 .nav-links {
   list-style: none;
-  padding: 0;
+  padding: 4px;
   margin: 0;
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 380px;
 }
 
 .nav-links li {
-  margin-right: 20px;
+  padding: 4px;
+  border: 2px solid black;
+  margin: 1px;
+  background-color: antiquewhite;
+  border-radius: 2px;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   font-size: 16px;
 }
 
 .button-row {
   display: flex;
-  justify-content:end;
+  justify-content:center;
   align-items: center;
-  margin: 20px;
+  padding: 3px;
+  width: 100%;
 }
 
 .button {
   background-color: #d5ebff;
-  color: #084c4c;
+  color: #0b2e2e;
   border: none;
   padding: 7px 14px;
   border-radius: 5px;
   cursor: pointer;
   margin-right: 5px;
   font-weight: 600;
+  border: 1px solid black;
+  flex-basis: 30%;
 }
 
 .button:hover {
@@ -64,18 +76,21 @@ nav {
 }
 
 marquee{
-  background-color: rgb(138, 45, 14);
+  background-color: rgb(161, 6, 58);
   margin: 0px;
+  padding: 8px;
 }
 
 .result{
   margin: -20px 0px;
 }
 
-.result h2{
-  background-color: rgb(250, 219, 16);
+.satta{
+  background-color: rgb(255, 162, 0);
   padding: 15px;
   color: black;
+  margin-top: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .col-block{
@@ -91,8 +106,8 @@ marquee{
   padding: 0 4px;
   text-justify: distribute;
   color: rgb(98, 0, 0);
-  border: 2px solid black;
-  border-radius: 2px;
+  border: 2px solid rgb(6, 6, 6);
+  border-radius: 2px ;
 }
 
 .w-button{
@@ -109,7 +124,6 @@ marquee{
   background-color: #160e72;
   color: rgb(255, 255, 255);
   border-radius: 7px;
-
 }
 
 hr{
@@ -118,16 +132,17 @@ hr{
 
 .places{
   display: flex;
-  margin-top: 15px;
+  padding: 5px 0px;
 }
 
 .place{
   flex-basis: 33%;
-  background-color: #a2d5ff;
+  background-color: #008cff;
   border-radius: 8px;
   margin: 0 2px;
   padding: 2px;
   color: rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 table{
@@ -136,26 +151,15 @@ table{
   background-color: #075226;
   color: #fff;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 table p{
-  background-color: #160e72;
+  background-color: #fdfdc5;
   margin: 1px;
   border-radius: 4px;
-}
-
-.popup{
-  background-color: rgba(0, 0, 0, 0.9);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-  overflow-y: auto;
+  color: #000000;
+  padding: 2px;
 }
 
 .table1{
@@ -217,24 +221,32 @@ td{
 
 .head
 {
-  border:solid rgb(0, 0, 0);
+  border:1px solid white;
+}
+
+.popup{
+  margin: auto;
 }
 
 .tab1{
-  margin: 2px 0px;
+  margin: 0px;
   padding: 4px;
-  display: flex;
   justify-content:center;
+  background-color: rgb(255, 240, 194);
+  width: 100%;
 }
 
 .months{
  margin-top: auto;
 }
 
+
+
 .monthsl{
-  background-color: chocolate;
-  margin: 2px 0px;
+  background-color: rgb(255, 240, 194);
+  margin: 0px;
   padding: 4px;
+  width: 100%;
   display: flex;
   justify-content:center;
 }
@@ -243,12 +255,14 @@ td{
 {
   color: black;
   margin: 1px;
+  padding: 5px;
 }
 
 .tab1 h2
 {
   color: black;
   margin: 1px;
+  padding: 5px;
 }
 
 .section{
@@ -285,15 +299,15 @@ td{
 }
 
 .ldb{
-  background-color: #00ff59;
+  background-color: #c3fbd6;
   color: rgb(0, 0, 0);
   padding: 5px;
   margin-bottom: 4px;
 }
 
 .bld{
-  background-color: rgb(225, 0, 255);
-  color: white;
+  background-color: rgb(236, 95, 255);
+  color: blue;
   padding: 5px;
 }
 
@@ -352,3 +366,4 @@ td{
     margin: 0 10px;
   }
 }
+
