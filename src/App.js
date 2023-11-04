@@ -16,25 +16,6 @@ function App() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-  const [isPopupVisible, setPopupVisible] = useState(false); //State for Satta chart button
-
-  const openPopup = () => {
-    setPopupVisible(true);
-  };
-
-  const closePopup = () => {
-    setPopupVisible(false);
-  };
-
-  const [isPopupVisible1, setPopupVisible1] = useState(false); //State for Monthly Satta chart button
-
-  const openPopup1 = () => {
-    setPopupVisible1(true);
-  };
-
-  const closePopup1 = () => {
-    setPopupVisible1(false);
-  };
 
   return (
     <div className="App" id="section4">
@@ -88,45 +69,14 @@ function App() {
       
       </div>
       <br></br>
-      <div className="notice">
-        <h2 style={{ margin: "5px" }}>:: NOTICE BOARD ::</h2>
-        <h3 style={{ margin: "2px" }}>AMIT DUBEY ONLINE KHAIWAL</h3>
-        <p className="p4">SATTA KING KA WADA</p>
-        <p className="p4">1001% PAYMENT KI GARANTI</p>
-        <p className="p4">जोडी रेट 10 के 950</p>
-        <p className="p4">हरूप रेट 100 के 950 PM</p>
-        <p className="p4">फरीदाबाद-05:50 PM</p>
-        <p className="p4">गाज़ियाबाद :- 07:50 PM</p>
-        <p className="p4">गली :- 10:50 PM</p>
-        <p className="p4">दिसावर :- 04:30 AM</p>
-        <p className="p4">भोपाल Morning - 4:30 AM</p>
-        <p className="p4">PAYMENT GAME PASS KE</p>
-        <p className="p4">30 MIN BAAD MILEGA</p>
-        <p className="p4">OFFICIAL KHAIWAL AMIT DUBEY</p>
-        <p className="p4">9058099847</p>
-        <br></br>
-        <button className="w-button">WHATSAPP</button>
-        <button className="c-button">Call Now</button>
-      </div>
-
       <div
-        className="tab1"
-        id="section3"
-        style={{ backgroundColor: "rgb(0, 166, 174)" }}
-      >
-        <h2>Satta King 2023 Chart</h2>
-        <button className="show" onClick={openPopup}>
-          Show chart
-        </button>
+        className="tab1" id="section3">
+        <h2 className="satta" style={{backgroundColor: 'rgb(200,50,89)'}}>Satta King 2023 Chart</h2>
+        <Table1 />
       </div>
-      <Table1 show={isPopupVisible} onClose={closePopup} />
       <div className="monthsl">
-        <h2>Monthly Satta King Results</h2>
-        <button className="show" onClick={openPopup1}>
-          Show chart
-        </button>
-      
-        <Monthly show={isPopupVisible1} onClose={closePopup1} />
+        <h2 className="satta" style={{backgroundColor: 'rgb(200,50,89)'}}>Monthly Satta King Results</h2>
+        <Monthly />
       </div>
     
       <Abtsutta />
