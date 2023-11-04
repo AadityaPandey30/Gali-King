@@ -95,7 +95,7 @@ marquee{
 
 .col-block{
   display: flex;
-  margin: -20px 0px;
+  margin: 2px 0px;
   padding: 4px 0px;
   background-color: #a3fad7;
 }
@@ -247,7 +247,6 @@ td{
   margin: 0px;
   padding: 4px;
   width: 100%;
-  display: flex;
   justify-content:center;
 }
 
