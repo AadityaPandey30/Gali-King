@@ -26,8 +26,46 @@ function App() {
             <Route path="/privacy" element={<Privacy/>} />
         </Routes>
       </BrowserRouter>
-      <hr style={{ color: "1px solid white" }}></hr>
-      <div className="col-block">
+      <div
+        className="tab1" id="section3">
+        <h2 className="satta" style={{backgroundColor: 'rgb(200,50,89)'}}>Satta King 2023 Chart</h2>
+        <Table1 />
+      </div>
+      <div className="monthsl">
+        <h2 className="satta" style={{backgroundColor: 'rgb(200,50,89)'}}>Monthly Satta King Results</h2>
+        <Monthly />
+      </div>
+      <div className="result" id="section1">
+            
+            <div className="col-block">
+            <div className="block" style={{flexBasis:'20%'}}>
+                <h3>Shivani Gupta (CEO)</h3>
+                <p style={{color:'black'}}>गली देसावर की सिंगल लीक जोड़ी 1001% Fix</p>
+                <p>7077354319</p>
+                <button className="w-button">WHATSAPP</button>
+                <button className="c-button">Call Now</button>
+            </div>
+            <hr></hr>
+            <div className="block">
+                <h3>Kiran Sharma MD</h3>
+                <p style={{color:'blue'}}>LEAK GAME KING</p>
+                <p style={{color:'black'}}>गली दिसावर गाजियाबाद फरीदाबाद दीपावली पर होगी सबके घर में खुशियाँ। गेम लो सिंगल जोड़ी में दिसावर & कंपनी से लीक गेम जो होगा 100% फिक्स। कंपनी के खाते में पैसा जमा करवाकर कंपनी से गेम लें। गली और दिसावर कंपनी से लीक और फास्ट गेम बुक करवाएं और अपना लॉस वापस करें। डेट फिक्स गेम मिलेगी। जिस भाई का कभी गेम पास नहीं हुआ हो और परेशान हो, तो हमसे संपर्क करें।</p>
+                <p>7536975011</p>
+                <button className="w-button">WHATSAPP</button>
+                <button className="c-button">Call Now</button>
+            </div>
+            <hr></hr>
+            <div className="block">
+                <h3>Saurabh Patel</h3>
+                <p style={{color:'blue'}}>King of Sutta</p>
+                <p style={{color:'black'}}>फरीदाबाद गाजियाबाद गली दिसावर मैं आपको सिंगल जोड़ी मैं कंपनी गेम पास कराकर देगी, गेम की 1001% गारंटी होगी। गेम किसी का बाप नहीं काट पाएगा। जो भाई लॉस में हो, लॉस कवर कराने के लिए व्हाट्सएप पर कॉल या मैसेज करे।</p>
+                <p>6287686224</p>
+                <button className="w-button">WHATSAPP</button>
+                <button className="c-button">Call Now</button>
+            </div>
+            </div>
+            
+        <div className="col-block">
         <div className="block" style={{ flexBasis: "50%" }}>
           <h3>Sangeeta Yadav MD</h3>
           <p style={{ color: "black" }}>
@@ -66,18 +104,10 @@ function App() {
         <button className="w-button">WHATSAPP</button>
         <button className="c-button">Call Now</button>
       </div>
-      
       </div>
       <br></br>
-      <div
-        className="tab1" id="section3">
-        <h2 className="satta" style={{backgroundColor: 'rgb(200,50,89)'}}>Satta King 2023 Chart</h2>
-        <Table1 />
       </div>
-      <div className="monthsl">
-        <h2 className="satta" style={{backgroundColor: 'rgb(200,50,89)'}}>Monthly Satta King Results</h2>
-        <Monthly />
-      </div>
+      <br></br>
     
       <Abtsutta />
       <hr></hr>
