@@ -1,10 +1,10 @@
 import React from "react";
 
-const Table1 = ({show, onClose}) => {
-    return show ? (
+const Table1 = () => {
+    return (
         <div className="popup">
             <div className="table1">
-            <button className='closebtn' onClick={onClose}>Close</button>
+            
             <table>
         <tr>
             <td>
@@ -487,12 +487,12 @@ TIME - 10:30 pm <br></br>
 
 23</p>
             </td>
-            <button className='close-btn' onClick={onClose}>Close</button>
+            
         </tr>
     </table>
         </div>
         </div>
-    ):null ;
+    ) ;
 }
 
 
