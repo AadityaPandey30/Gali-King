@@ -10,11 +10,11 @@ import Table9m from './Table9m';
 import Table10m from './Table10m';
 import Table11m from './Table11m';
 
-const Monthly=({show, onClose})=>{
-    return show ?(
+const Monthly=()=>{
+    return (
         <div className='popup'>
             <div className='months'>
-            <button className='close-btn' onClick={onClose}>Close</button>
+            
       <Table2m />
       <Table3m />
       <Table4m />
@@ -25,10 +25,9 @@ const Monthly=({show, onClose})=>{
       <Table9m />
       <Table10m />
       <Table11m />
-      <button className='close-btn' onClick={onClose}>Close</button>
       </div>
         </div>
-    ):null ;
+    ) ;
 }
 
 export default Monthly
