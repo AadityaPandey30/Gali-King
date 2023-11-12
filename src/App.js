@@ -42,8 +42,11 @@ function App() {
                 <h3>Shivani Gupta (CEO)</h3>
                 <p style={{color:'black'}}>गली देसावर की सिंगल लीक जोड़ी 1001% Fix</p>
                 <p>7077354319</p>
-                <button className="w-button">WHATSAPP</button>
-                <button className="c-button">Call Now</button>
+                <button className="w-button" onClick= {()=>{
+                  const whatsappURL = `https://api.whatsapp.com/send?phone=7077354319`;
+                  window.open(whatsappURL, '_blank');
+                }}>WHATSAPP</button>
+                <a href={`tel:7077354319`}><button className="c-button">Call Now</button></a>
             </div>
             <hr></hr>
             <div className="block">
@@ -51,8 +54,11 @@ function App() {
                 <p style={{color:'blue'}}>LEAK GAME KING</p>
                 <p style={{color:'black'}}>गली दिसावर गाजियाबाद फरीदाबाद दीपावली पर होगी सबके घर में खुशियाँ। गेम लो सिंगल जोड़ी में दिसावर & कंपनी से लीक गेम जो होगा 100% फिक्स। कंपनी के खाते में पैसा जमा करवाकर कंपनी से गेम लें। गली और दिसावर कंपनी से लीक और फास्ट गेम बुक करवाएं और अपना लॉस वापस करें। डेट फिक्स गेम मिलेगी। जिस भाई का कभी गेम पास नहीं हुआ हो और परेशान हो, तो हमसे संपर्क करें।</p>
                 <p>7536975011</p>
-                <button className="w-button">WHATSAPP</button>
-                <button className="c-button">Call Now</button>
+                <button className="w-button" onClick= {()=>{
+                  const whatsappURL = `https://api.whatsapp.com/send?phone=7536975011`;
+                  window.open(whatsappURL, '_blank');
+                }}>WHATSAPP</button>
+                <a href={`tel:7536975011`}><button className="c-button">Call Now</button></a>
             </div>
             <hr></hr>
             <div className="block">
@@ -60,8 +66,11 @@ function App() {
                 <p style={{color:'blue'}}>King of Sutta</p>
                 <p style={{color:'black'}}>फरीदाबाद गाजियाबाद गली दिसावर मैं आपको सिंगल जोड़ी मैं कंपनी गेम पास कराकर देगी, गेम की 1001% गारंटी होगी। गेम किसी का बाप नहीं काट पाएगा। जो भाई लॉस में हो, लॉस कवर कराने के लिए व्हाट्सएप पर कॉल या मैसेज करे।</p>
                 <p>6287686224</p>
-                <button className="w-button">WHATSAPP</button>
-                <button className="c-button">Call Now</button>
+                <button className="w-button" onClick= {()=>{
+                  const whatsappURL = `https://api.whatsapp.com/send?phone=6287686224`;
+                  window.open(whatsappURL, '_blank');
+                }}>WHATSAPP</button>
+                <a href={`tel:6287686224`}><button className="c-button">Call Now</button></a>
             </div>
             </div>
             
@@ -74,8 +83,11 @@ function App() {
             जो भाई लॉस मैं हो लॉस कवर कराने के लिए व्हाट्सएप पर कॉल या मेसेज करे
           </p>
           <p>9124438657</p>
-          <button className="w-button">WHATSAPP</button>
-          <button className="c-button">Call Now</button>
+          <button className="w-button" onClick= {()=>{
+                  const whatsappURL = `https://api.whatsapp.com/send?phone=9124438657`;
+                  window.open(whatsappURL, '_blank');
+                }}>WHATSAPP</button>
+          <a href={`tel:9124438657`}><button className="c-button">Call Now</button></a>
         </div>
         <hr></hr>
         <div className="block" style={{ flexBasis: "50%" }}>
@@ -88,8 +100,11 @@ function App() {
             कंपनी पास करवा कर देगी देगी
           </p>
           <p>6287686224</p>
-          <button className="w-button">WHATSAPP</button>
-          <button className="c-button">Call Now</button>
+          <button className="w-button" onClick= {()=>{
+                  const whatsappURL = `https://api.whatsapp.com/send?phone=6287686224`;
+                  window.open(whatsappURL, '_blank');
+                }}>WHATSAPP</button>
+          <a href={`tel:6287686224`}><button className="c-button">Call Now</button></a>
         </div>
       <hr></hr>
       <div className="block">
@@ -101,8 +116,11 @@ function App() {
           कमाये आज ही व्हाट्सएप करें
         </p>
         <p>7536975011</p>
-        <button className="w-button">WHATSAPP</button>
-        <button className="c-button">Call Now</button>
+        <button className="w-button" onClick= {()=>{
+                  const whatsappURL = `https://api.whatsapp.com/send?phone=7536975011`;
+                  window.open(whatsappURL, '_blank');
+                }}>WHATSAPP</button>
+        <a href={`tel:7536975011`}><button className="c-button">Call Now</button></a>
       </div>
       </div>
       <br></br>
